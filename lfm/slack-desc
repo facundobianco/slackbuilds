@@ -1,0 +1,25 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+   |-----handy-ruler------------------------------------------------------|
+lfm: lfm (Last File Manager)
+lfm: 
+lfm: lfm is a powerful file manager for the UNIX console. It has a curses 
+lfm: interface and it's written in Python. 
+lfm: 
+lfm: Some of the features you can find in lfm:
+lfm:
+lfm: * console-based file manager for UNIX platforms
+lfm: * 1-pane or 2-pane view
+lfm: * bookmarks
+lfm: * history
+lfm: * vfs for compressed files
+lfm: * fast access to the shell
+lfm: * tabs
+lfm: * color files by extension
+lfm: * fast file viewer with text and binary modes
+lfm: ...and many others
