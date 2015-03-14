@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Slackware build script for mutt with sidebar patch
+
 # Copyright 2015 Facundo Bianco <vando at van.do> 
 # All rights reserved.
 #
