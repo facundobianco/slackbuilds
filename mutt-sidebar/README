@@ -9,3 +9,5 @@ This version includes the sidebar patch and the nntp patch (optional).
 NNTP (Network News Transfer Protocol) is not compiled by default. If 
 you want mutt to compile with NNTP capabilities, run the script as 
 follows: NNTP=yes ./mutt-sidebar.Slackbuild
+
+NOTE: This version conflicts with mutt.
