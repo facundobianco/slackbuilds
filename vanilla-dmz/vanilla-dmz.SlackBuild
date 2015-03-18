@@ -55,10 +55,7 @@ mv COPYING ${PKG}/usr/doc/${PRGNAM}-${VERSION}
 cat ${CWD}/${PRGNAM}.SlackBuild > ${PKG}/usr/doc/${PRGNAM}-${VERSION}/${PRGNAM}.SlackBuild
 
 mkdir -p ${PKG}/usr/share/icons
-
-THEME=${THEME:-Vanilla-DMZ Vanilla-DMZ-AA}
-
-for CURSOR in ${THEME}
+for CURSOR in ${THEME:-Vanilla-DMZ Vanilla-DMZ-AA}
 do
     mv ${TMP}/${SRCNAM}/${CURSOR} ${PKG}/usr/share/icons/
 done
