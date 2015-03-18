@@ -1,0 +1,12 @@
+PRGNAM="trickle"
+VERSION="1.07"
+HOMEPAGE="http://monkey.org/~marius/pages/?page=trickle"
+DOWNLOAD="http://monkey.org/~marius/trickle/trickle-1.07.tar.gz \
+          fix-crasher.diff"
+MD5SUM="860ebc4abbbd82957c20a28bd9390d7d \
+        a072091bce131e9f7229bff85ed5858c"
+DOWNLOAD_x86_64=""
+MD5SUM_x86_64=""
+REQUIRES=""
+MAINTAINER="Facundo Bianco"
+EMAIL="vando at van.do"

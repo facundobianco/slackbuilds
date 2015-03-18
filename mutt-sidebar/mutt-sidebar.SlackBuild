@@ -28,14 +28,12 @@ VERSION=${VERSION:-$(echo $PKGNAM-*.tar.?z* | rev | cut -f 3- -d . | cut -f 1 -d
 PATCHDATE=${PATCHDATE:-20140412}
 BUILD=${BUILD:-1}
 
-# Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
-  case "$( uname -m )" in
-    i?86) export ARCH=i486 ;;
-    arm*) export ARCH=arm ;;
-    # Unless $ARCH is already set, use uname -m for all other archs:
-       *) export ARCH=$( uname -m ) ;;
-  esac
+    case "$( uname -m )" in
+        i?86) ARCH=i486 ;;
+        arm*) ARCH=arm ;;
+           *) ARCH=$( uname -m ) ;;
+    esac
 fi
 
 TMP=${TMP:-/tmp}
@@ -122,6 +120,8 @@ if [ -d ${PKG}/usr/man ]; then
     done
   )
 fi
+
+cat $CWD/$PRGNAM.SlackBuild > $PKG/usr/doc/$PRGNAM-$VERSION/$PRGNAM.SlackBuild
 
 mkdir -p ${PKG}/install
 cat ${CWD}/slack-desc > ${PKG}/install/slack-desc
