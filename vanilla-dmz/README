@@ -1,0 +1,14 @@
+The Vanilla-DMZ cursor theme is a style neutral scalable cursor theme.
+
+This package include both themes, white and black. If you want one, ie
+black theme, run the script as follow: THEME=Vanilla-DMZ-AA ./vanilla-dmz.SlackBuild
+
+For using white theme put
+
+    Xcursor.theme:    Vanilla-DMZ
+    
+or for using black theme put
+
+    Xcursor.theme:    Vanilla-DMZ-AA
+
+in your XResources file.
