@@ -5,4 +5,10 @@ It will look like this:
     $ wget -nv ftp://ftp.gnu.org/gnu/wget/wget-1.12.tar.bz2
     38% [=============>      ]      614,880 79.5K/s eta 13s
 
+You can add the --no-verbose option into wgetrc file:
+
+    # Verbose mode: tons of information.
+    # Command-line equivalent: -v or --verbose, or -nv or --no-verbose
+    verbose = off
+
 NOTE: This version conflicts with wget.
