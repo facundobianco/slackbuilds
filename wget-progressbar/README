@@ -1,6 +1,6 @@
 wget patched to make --no-verbose option outputs a progress bar.
 
-This is how it will look like:
+It will look like this:
 
     $ wget -nv ftp://ftp.gnu.org/gnu/wget/wget-1.12.tar.bz2
     38% [=============>      ]      614,880 79.5K/s eta 13s
